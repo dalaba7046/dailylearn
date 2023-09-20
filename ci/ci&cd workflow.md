@@ -13,6 +13,7 @@
 * 降低人為疏失
 * 減少團隊loading
 * 進行版控管制
+* 確保程式碼品質
   
 ==================================
 
@@ -44,3 +45,8 @@
 * 通知工具(slack,line notify,telegram,discord...etc)
   
 ================================
+
+
+參考來源:
+https://enzochang.com/cicd-introduction/
+https://ithelp.ithome.com.tw/articles/10219083
