@@ -50,3 +50,4 @@
 參考來源:
 https://enzochang.com/cicd-introduction/
 https://ithelp.ithome.com.tw/articles/10219083
+https://hackmd.io/@tienyulin/ci-cd-concept
