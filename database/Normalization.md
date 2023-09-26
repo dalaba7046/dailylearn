@@ -53,6 +53,17 @@ sample
 ![image](https://github.com/dalaba7046/dailylearn/assets/49179942/288519a5-071b-40a5-9c11-c90a4ac96226)
 
 
+### 第三正規化
+1. 檢查表格之間的遞移關係
+2. 將遞移關係的欄位分割出去,另外組成資料表
+
+* 以範例為例：
+  PK為訂單編號，而總金額和非主鍵欄位商品、數量存在遞移相依
+
+![image](https://github.com/dalaba7046/dailylearn/assets/49179942/462b39b4-ce24-4d29-9863-d247fbc53b53)
+![image](https://github.com/dalaba7046/dailylearn/assets/49179942/23e1b59b-fa2d-46e4-839b-8eb97ef73ea2)
+![image](https://github.com/dalaba7046/dailylearn/assets/49179942/b288208c-9c69-4575-a682-02dbe22a7d0b)
+
 Ref:
 
 [維基百科](https://zh.wikipedia.org/zh-tw/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A7%84%E8%8C%83%E5%8C%96)
