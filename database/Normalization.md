@@ -25,8 +25,6 @@ sample
 
 ![image](https://github.com/dalaba7046/dailylearn/assets/49179942/91923523-79a7-4d54-a0cb-3df5bf0eade8)
 
-![image](https://github.com/dalaba7046/dailylearn/assets/49179942/3d590937-d1bf-4c0f-b472-36865b46fda0)
-
 ## 異常
 以上未符合正規化的表格具備以下問題：
 1. 表格1具備同性質重複的欄位
@@ -41,14 +39,18 @@ sample
 
 ![image](https://github.com/dalaba7046/dailylearn/assets/49179942/1b44226e-4762-4405-b8bd-c3e8831f0d17)
 
-![image](https://github.com/dalaba7046/dailylearn/assets/49179942/17c3997d-bbdc-428c-a7f5-923cc7fff381)
-
 
 ## 異常
 1. 過多重複的資料
 
 ### 第二正規化
-1. 消除重複的資料
+1. 消除部份相依
+
+透過建立新的table來儲存一直出現的欄位並用外鍵進行關聯
+
+![image](https://github.com/dalaba7046/dailylearn/assets/49179942/c3b35e7f-0bc4-4d2b-bcd4-a5150a10263c)
+![image](https://github.com/dalaba7046/dailylearn/assets/49179942/e20d09b7-2446-4d7f-a9c8-c0e3dcda03d8)
+![image](https://github.com/dalaba7046/dailylearn/assets/49179942/288519a5-071b-40a5-9c11-c90a4ac96226)
 
 
 Ref:
