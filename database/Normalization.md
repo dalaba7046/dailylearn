@@ -64,6 +64,17 @@ sample
 ![image](https://github.com/dalaba7046/dailylearn/assets/49179942/23e1b59b-fa2d-46e4-839b-8eb97ef73ea2)
 ![image](https://github.com/dalaba7046/dailylearn/assets/49179942/b288208c-9c69-4575-a682-02dbe22a7d0b)
 
+
+
+### 結論
+* 每一段正規化都會需要解決一個問題
+* 第一正規化：去除重複資料
+* 第二正規化：去除部份相依
+* 第三正規化：去除遞移相依
+
+* 設計不良的表格可能會造成CRUD異常
+
+
 Ref:
 
 [維基百科](https://zh.wikipedia.org/zh-tw/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A7%84%E8%8C%83%E5%8C%96)
