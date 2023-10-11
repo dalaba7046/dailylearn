@@ -7,3 +7,6 @@
 4. 使用count記數效率：count(具備索引的欄位) > count(*) > count(1)
 5. 在進行許多表格的查詢中，為了滿足某個條件，可能會需要針對其他表格做連結，因此可使用EXISTS(NOT EXISTS)來提高查詢效率
 6. 複雜的大型多表格查詢下使用EXISTS會比DISTINCT來的高效，但是在某些情況下使用DISTINCT可讀性比較高，並且效能也不會輸EXISTS
+7. 盡量不要在where中對欄位做判斷
+8. 盡量不要在where中使用!=或<>操作符，因為會使engine放棄使用索引而進行全表掃描
+9. 盡量不要在where中使用or，改用union all
